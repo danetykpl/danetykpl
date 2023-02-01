@@ -6,7 +6,7 @@
 Znajdziecie tutaj [artykuły](https://github.com/danetykpl/artykuly) i materiały bezpośrednio związane z danetyką i tematami pokrewnymi. I choć skupiam się głównie na przetwarzaniu i analizie danych z wykorzystaniem języka Python, to nie stronię od języka SQL, arkuszy kalkulacyjnych, narzędzi *power bi*, czy czegokolwiek innego, co jest związane w taki, czy inny sposób z dejta sajens. Prócz tekstów poświęconych tej tematyce znajdziecie wśród udostępnianych materiałów [notebooki](https://github.com/danetykpl/notebooki), [skrypty i receptury](https://github.com/danetykpl/skrypty_i_receptury) oraz [zestawy danych](https://github.com/danetykpl/zestawy_danych), które mam nadzieję, że w taki, czy inny sposób ułatwią i uprzyjemnią Wam naukę i pracę.
 
 ### Dla kogo? 🤔
-Portal jest dedykowany dla wszystkich związanych w taki, czy inny sposób z danymi, czyli analityków (ang. *data analyst*), danetyków (ang. *data scientist*) oraz inżynierów (ang. *data engineer*), ale też osób, które są po prostu zainteresowane tematem.
+Portal jest dedykowany dla wszystkich związanych w taki, czy inny sposób z danymi, czyli analityków (ang. *data analyst*), danetyków (ang. *data scientist*) oraz inżynierów (ang. *data engineer*), ale też osób, które są po prostu w luźny sposób zainteresowane tematem.
 
 ### Wsparcie 🌱
 Jeżeli podoba się Wam to, co robię i chcecie więcej artykułów i materiałów, to rozważcie proszę wsparcie mojej działalności poprzez...
