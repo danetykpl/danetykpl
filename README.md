@@ -9,7 +9,7 @@ Znajdziecie tutaj [artykuły](https://github.com/danetykpl/artykuly) i materiał
 Portal jest dedykowany dla wszystkich związanych w taki, czy inny sposób z danymi, czyli analityków (ang. *data analyst*), danetyków (ang. *data scientist*) oraz inżynierów (ang. *data engineer*), ale też osób, które są po prostu w luźny sposób zainteresowane tematem.
 
 ### Wsparcie 🌱
-Jeżeli podoba się Wam to, co robię i chcecie więcej artykułów i materiałów, to rozważcie proszę wsparcie mojej działalności poprzez...
+Jeżeli podoba się Wam to, co robię i chcecie więcej artykułów i materiałów wszelakich, to rozważcie proszę wsparcie mojej działalności poprzez...
 
 **...udostępnianie moich treści...**
 
