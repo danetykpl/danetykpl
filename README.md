@@ -1,6 +1,6 @@
 ### Witajcie... 👋
 
-..."na łamach" czegoś co można zdefiniować jako mój osobisty, eksperymentalny blog poświęcony przetwarzaniu i analizie danych 🤖 Eksperymentalny, bo funkcjonujący na GitHubie z możliwością śledzenia aktualności na [🇫acebooku](https://www.facebook.com/danetykpl).
+..."na łamach" czegoś co można zdefiniować jako mój osobisty blog poświęcony przetwarzaniu i analizie danych 🤖
 
 ### Jakie treści? 🤔
 Znajdziecie tutaj [artykuły](https://github.com/danetykpl/artykuly) i materiały bezpośrednio związane z danetyką i tematami pokrewnymi. I choć skupiam się głównie na przetwarzaniu i analizie danych z wykorzystaniem języka Python, to nie stronię od języka SQL, arkuszy kalkulacyjnych, narzędzi *power bi*, czy czegokolwiek innego, co jest związane w taki, czy inny sposób z dejta sajens. Prócz tekstów poświęconych tej tematyce znajdziecie wśród udostępnianych materiałów [notebooki](https://github.com/danetykpl/notebooki), [skrypty i receptury](https://github.com/danetykpl/skrypty_i_receptury) oraz [zestawy danych](https://github.com/danetykpl/zestawy_danych), które mam nadzieję, że w taki, czy inny sposób ułatwią i uprzyjemnią Wam naukę i pracę.
