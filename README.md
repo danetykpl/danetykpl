@@ -21,5 +21,8 @@ Jeżeli podoba się Wam to, co robię i chcecie więcej artykułów i materiał�
 
 *Od każdego Waszego zakupu dostaję parę złotych prowizji. Nie musicie jednak płacić za szkolenia pełnej kwoty, bo możecie skorzystać z przygotowanych dla Was kodów rabatowych -30% `PL30FB` (ważny przez ograniczony czas) oraz -10% `ANco2` (nagroda pocieszenia, gdy pierwszy kod straci ważność).*
 
+### Soszjal Midja
+Jeżeli będziecie mieli/miały ochotę, to zapraszam również na mojego [🇫acebooka](https://www.facebook.com/danetykpl), co pomoże Wam być na bieżąco z udostępnianymi tutaj artykułami i materiałami.
+
 ### Kontakt 📫
 W sprawach wszelakich piszcie na kontakt@danetyk.pl.
