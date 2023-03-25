@@ -14,7 +14,7 @@ Jeżeli podoba się Wam to, co robię i chcecie więcej wszystkiego, co danetycz
 1. Udostępnianie moich treści.
 2. Polubienie mojej strony na [Facebooku](https://www.facebook.com/danetykpl).
 3. Zostanie moim *Followersem* na [Kaggle](https://www.kaggle.com/danetykpl).
-4. Zakup lub polecenie moich szkoleń:
+4. Zakup i/lub polecenie moich szkoleń:
     * [Fundamenty programowania w Python](https://strefakursow.pl/kursy/programowanie/fundamenty_programowania_w_python.html?ref=111440)
     * [Fundamenty języka Java](https://strefakursow.pl/kursy/programowanie/fundamenty_jezyka_java.html?ref=111440)
   
