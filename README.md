@@ -23,7 +23,7 @@ Od każdego zakupu mojego szkolenia po wejściu przez w/w linki dostaję parę z
 Z góry dziękuję za każdą formę wsparcia mojej działalności.
 
 ### Moje Media Społecznościowe i Portale
-* [Facebooka](https://www.facebook.com/danetykpl) - pomoże Wam być na bieżąco z udostępnianymi tutaj i na Kaggle treściami.
+* [Facebook](https://www.facebook.com/danetykpl) - pomoże Wam być na bieżąco z udostępnianymi tutaj i na Kaggle treściami.
 * [Kaggle](https://www.kaggle.com/danetykpl) - notebooki i zestawy danych.
 
 ### Kontakt 📫
