@@ -1,6 +1,6 @@
 ### Witajcie... 👋
 
-...na łamach czegoś, co można nazwać moim osobistym blogiem poświęconym pracy z danymi (przetwarzanie, eksploracja, modelowanie itd) 🤖
+...na łamach czegoś, co można nazwać moim osobistym blogiem poświęconym pracy z danymi (przetwarzanie, eksploracja, modelowanie) 🤖
 
 ### Szybkie FAQ
 
