@@ -4,9 +4,7 @@
 
 ### Szybkie FAQ
 
-**Co tutaj znajdziemy?** Znajdziecie tutaj przede wszystkim [artykuły](https://github.com/danetykpl/artykuly) napisane w Markdownie i powiązane z nimi materiały (głównie kody źródłowe w wybranym języku programowania). W artykułach skupiam się na wszystkim tym, co jest związane ze światem danych oraz pracą z danymi z wykorzystaniem wybranych technologii (np. Python i SQL).
-
-**Czy masz Kaggle?** Tak, kliknijcie [tutaj](https://www.kaggle.com/danetykpl), aby przejść do mojego profilu. Znajdziecie tam moje [zestawy danych](https://www.kaggle.com/danetykpl/datasets) oraz [moje notebooki](https://www.kaggle.com/danetykpl/code).
+**Co tutaj znajdziemy?** Znajdziecie tutaj przede wszystkim napisane w Markdownie [artykuły](https://github.com/danetykpl/artykuly), a także powiązane z nimi materiały, głównie w postaci kodów źródłowych napisanych w wybranych językach programowania (np. Python, czy SQL). Oprócz artykułów, zapraszam na [mój profil](https://www.kaggle.com/danetykpl) na portalu Kaggle, gdzie znajdziecie [zestawy danych](https://www.kaggle.com/danetykpl/datasets) oraz [notebooki](https://www.kaggle.com/danetykpl/code).
 
 **Dla kogo piszesz/tworzysz?** Dla wszystkich zaintersowanych danymi, w każdym wieku, każdej płci, każdej [wstaw cokolwiek] ... , zaczynając od początkujących, a kończąc na starych wyjadaczach (i wyjadaczkach).
 
