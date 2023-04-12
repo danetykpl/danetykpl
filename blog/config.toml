@@ -1,0 +1,4 @@
+baseURL = 'http://danetyk.pl/'
+languageCode = 'en-us'
+title = 'danetyk.pl'
+theme = "PaperMod"
