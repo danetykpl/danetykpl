@@ -2,7 +2,7 @@
 
 Wylądowaliście na GitHubie bezpośrednio powiązanym z blogiem [danetyk.pl](https://danetyk.pl/). Zbajdziecie tutaj PDFy [artykułów](https://github.com/danetykpl/danetykpl/tree/main/artyku%C5%82y) już opublikowanych na blogu, jak i ciekawe materiały dodatkowe, tj. kody źródłowe, zestawy danych, projekty, publikacje naukowe i inne ciekawe materiały związane z danetyką. Zachęcam więc do zaglądania tutaj co jakiś czas i korzystania z udostępnionych materiałów 🤖
 
-### Media Społecznościowe 🤝
+### Media społecznościowe 🤝
 
 * [Facebook](https://www.facebook.com/danetykpl) - znajdziecie tutaj newsy dotyczące funkcjonowania bloga.
 * [Kaggle](https://www.kaggle.com/danetykpl) - znajdziecie tutaj zestawy danych i notebooki.
