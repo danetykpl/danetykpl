@@ -2,8 +2,10 @@
 
 Wylądowaliście na GitHubie bezpośrednio powiązanym z blogiem [danetyk.pl](https://danetyk.pl/). Znajdziecie tutaj 
 [PDFy](https://github.com/danetykpl/danetykpl/tree/main/artyku%C5%82y) artykułów już opublikowanych na blogu, 
-jak i ciekawe materiały dodatkowe, tj. kody źródłowe, zestawy danych, projekty, publikacje naukowe i inne ciekawe 
-materiały związane z danetyką. Zachęcam więc do zaglądania tutaj co jakiś czas i korzystania z udostępnionych materiałów 🤖
+jak i ciekawe materiały dodatkowe, tj. [notatniki](https://github.com/danetykpl/danetykpl/tree/main/notatniki), 
+[zestawy danych](https://github.com/danetykpl/danetykpl/tree/main/notatniki/zestawy_danych), 
+projekty, receptury, publikacje naukowe i inne ciekawe materiały związane z danetyką. Zachęcam więc do zaglądania 
+tutaj co jakiś czas i korzystania z udostępnionych materiałów 🤖
 
 ### Media społecznościowe 🤝
 
