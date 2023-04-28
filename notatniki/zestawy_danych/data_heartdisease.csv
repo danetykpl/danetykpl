@@ -1,0 +1,541 @@
+id,age,sex,chest_pain_type,resting_blood_presure,serum_cholesterol,fasting_blood_sugar,heart_disease_diagnosis
+1,47,Female,Non-Anginal Pain,128,245,0,No
+2,62,Male,Typical Angina,130,267,1,Yes
+3,58,Female,Atypical Angina,110,217,0,No
+4,44,Male,Asymptomatic,140,235,0,Yes
+5,50,Female,Non-Anginal Pain,140,263,0,No
+6,66,Male,Asymptomatic,120,338,0,Yes
+7,52,Female,Atypical Angina,120,243,1,Yes
+8,58,Male,Non-Anginal Pain,150,220,0,No
+9,42,Male,Atypical Angina,140,226,0,No
+10,51,Female,Asymptomatic,120,295,0,No
+11,46,Male,Non-Anginal Pain,130,234,1,Yes
+12,56,Female,Typical Angina,130,294,0,Yes
+13,58,Male,Atypical Angina,120,340,0,Yes
+14,55,Female,Asymptomatic,140,239,0,No
+15,50,Male,Non-Anginal Pain,120,219,0,No
+16,59,Female,Atypical Angina,140,211,1,Yes
+17,60,Male,Typical Angina,130,253,0,Yes
+18,40,Male,Non-Anginal Pain,110,211,0,No
+19,51,Female,Asymptomatic,130,175,0,No
+20,66,Male,Atypical Angina,160,228,0,Yes
+21,47,Female,Typical Angina,108,243,0,No
+22,57,Male,Non-Anginal Pain,128,303,1,Yes
+23,54,Female,Asymptomatic,135,225,0,No
+24,50,Male,Atypical Angina,140,233,1,Yes
+25,59,Female,Non-Anginal Pain,140,201,0,No
+26,46,Male,Asymptomatic,138,243,0,No
+27,64,Female,Atypical Angina,130,303,1,Yes
+28,54,Male,Non-Anginal Pain,120,188,0,No
+29,44,Female,Typical Angina,140,235,0,No
+30,52,Male,Atypical Angina,120,325,0,Yes
+31,47,Female,Asymptomatic,138,257,0,No
+32,63,Male,Atypical Angina,130,254,0,Yes
+33,46,Female,Non-Anginal Pain,142,190,1,No
+34,42,Male,Asymptomatic,120,295,0,Yes
+35,51,Female,Typical Angina,125,213,0,No
+36,54,Male,Atypical Angina,128,259,0,No
+37,53,Female,Non-Anginal Pain,135,245,1,Yes
+38,41,Male,Asymptomatic,110,208,0,No
+39,56,Female,Typical Angina,130,211,0,No
+40,50,Male,Non-Anginal Pain,120,233,0,No
+41,66,Female,Atypical Angina,160,246,1,Yes
+42,42,Male,Asymptomatic,120,236,0,No
+43,62,Female,Non-Anginal Pain,140,268,0,Yes
+44,54,Male,Atypical Angina,140,239,0,No
+45,45,Female,Asymptomatic,120,226,0,No
+46,58,Male,Typical Angina,112,230,0,No
+47,55,Female,Non-Anginal Pain,132,342,0,Yes
+48,48,Male,Asymptomatic,130,245,0,No
+49,57,Female,Typical Angina,128,229,0,No
+50,50,Male,Non-Anginal Pain,120,215,1,No
+51,61,Female,Asymptomatic,150,200,0,Yes
+52,45,Male,Atypical Angina,142,309,0,Yes
+53,52,Female,Non-Anginal Pain,128,205,0,No
+54,56,Male,Typical Angina,120,226,0,No
+55,59,Female,Atypical Angina,150,212,1,Yes
+56,41,Male,Non-Anginal Pain,120,280,0,Yes
+57,47,Female,Asymptomatic,112,204,0,No
+58,62,Male,Atypical Angina,124,209,0,No
+59,52,Female,Typical Angina,118,186,0,No
+60,53,Male,Non-Anginal Pain,124,233,0,No
+61,56,Female,Asymptomatic,130,267,0,No
+62,55,Male,Atypical Angina,138,234,0,Yes
+63,44,Female,Non-Anginal Pain,118,242,0,No
+64,50,Male,Typical Angina,140,233,0,No
+65,51,Female,Asymptomatic,130,262,0,Yes
+66,42,Male,Non-Anginal Pain,120,295,0,No
+67,68,Female,Atypical Angina,118,277,1,Yes
+68,58,Male,Typical Angina,114,318,0,Yes
+69,47,Female,Asymptomatic,112,204,0,No
+70,63,Male,Atypical Angina,130,254,0,Yes
+71,51,Female,Non-Anginal Pain,140,299,0,No
+72,56,Male,Asymptomatic,130,283,1,Yes
+73,57,Female,Typical Angina,140,204,1,Yes
+74,45,Male,Atypical Angina,115,260,0,Yes
+75,54,Female,Non-Anginal Pain,108,309,0,Yes
+76,50,Male,Asymptomatic,110,222,0,No
+77,53,Female,Typical Angina,142,226,0,No
+78,54,Male,Non-Anginal Pain,128,309,0,No
+79,59,Female,Atypical Angina,135,234,1,Yes
+80,43,Male,Asymptomatic,120,291,0,No
+81,60,Female,Typical Angina,145,282,0,Yes
+82,45,Male,Non-Anginal Pain,130,234,0,No
+83,52,Female,Atypical Angina,118,186,0,No
+84,53,Male,Typical Angina,120,325,0,Yes
+85,48,Female,Non-Anginal Pain,130,245,0,No
+86,57,Male,Asymptomatic,128,303,0,Yes
+87,54,Female,Typical Angina,110,239,0,No
+88,44,Male,Atypical Angina,108,141,0,No
+89,51,Female,Non-Anginal Pain,130,305,1,Yes
+90,53,Male,Asymptomatic,130,264,0,No
+91,56,Female,Typical Angina,128,233,1,Yes
+92,55,Male,Non-Anginal Pain,140,216,1,No
+93,62,Female,Atypical Angina,140,394,0,Yes
+94,52,Male,Non-Anginal Pain,130,267,0,No
+95,59,Female,Asymptomatic,170,326,0,Yes
+96,58,Male,Atypical Angina,140,211,1,Yes
+97,49,Female,Typical Angina,138,220,0,No
+98,50,Male,Non-Anginal Pain,120,244,0,No
+99,62,Female,Asymptomatic,130,263,0,Yes
+100,57,Male,Atypical Angina,128,229,0,No
+101,51,Female,Typical Angina,140,298,1,Yes
+102,43,Male,Non-Anginal Pain,115,303,0,No
+103,54,Female,Atypical Angina,135,304,0,Yes
+104,61,Male,Typical Angina,130,330,1,Yes
+105,47,Female,Asymptomatic,120,204,0,No
+106,54,Male,Non-Anginal Pain,150,232,1,No
+107,49,Female,Atypical Angina,130,269,0,Yes
+108,44,Male,Typical Angina,120,263,0,No
+109,63,Female,Non-Anginal Pain,140,187,1,Yes
+110,45,Male,Asymptomatic,130,234,0,No
+111,51,Female,Typical Angina,110,175,0,No
+112,56,Male,Non-Anginal Pain,130,256,0,No
+113,57,Female,Atypical Angina,120,354,0,Yes
+114,48,Male,Typical Angina,120,274,0,No
+115,43,Female,Asymptomatic,132,247,1,Yes
+116,61,Male,Non-Anginal Pain,130,330,1,Yes
+117,51,Female,Atypical Angina,140,298,1,Yes
+118,49,Male,Typical Angina,134,271,0,No
+119,57,Female,Non-Anginal Pain,135,304,0,Yes
+120,54,Male,Asymptomatic,150,232,1,No
+121,43,Female,Typical Angina,150,247,0,Yes
+122,45,Male,Non-Anginal Pain,130,234,0,No
+123,63,Female,Atypical Angina,140,187,1,Yes
+124,51,Male,Asymptomatic,110,175,0,No
+125,56,Female,Typical Angina,130,256,0,No
+126,57,Male,Non-Anginal Pain,120,354,0,Yes
+127,48,Female,Atypical Angina,120,274,0,No
+128,54,Male,Non-Anginal Pain,140,239,0,No
+129,58,Female,Atypical Angina,150,283,1,Yes
+130,51,Male,Asymptomatic,120,255,0,No
+131,44,Female,Typical Angina,140,226,0,No
+132,54,Male,Non-Anginal Pain,140,226,0,No
+133,63,Female,Atypical Angina,130,330,1,Yes
+134,45,Male,Non-Anginal Pain,138,236,0,No
+135,50,Female,Asymptomatic,120,244,0,No
+136,44,Male,Typical Angina,130,233,0,No
+137,57,Female,Atypical Angina,130,236,0,Yes
+138,54,Male,Non-Anginal Pain,160,289,1,Yes
+139,43,Female,Typical Angina,140,226,0,No
+140,54,Male,Asymptomatic,140,239,0,No
+141,58,Female,Atypical Angina,150,283,1,Yes
+142,51,Male,Asymptomatic,120,255,0,No
+143,44,Female,Typical Angina,140,226,0,No
+144,54,Male,Non-Anginal Pain,140,226,0,No
+145,63,Female,Atypical Angina,130,330,1,Yes
+146,45,Male,Non-Anginal Pain,138,236,0,No
+147,50,Female,Asymptomatic,120,244,0,No
+148,44,Male,Typical Angina,130,233,0,No
+149,57,Female,Atypical Angina,130,236,0,Yes
+150,54,Male,Non-Anginal Pain,160,289,1,Yes
+151,43,Female,Typical Angina,140,226,0,No
+152,54,Male,Asymptomatic,140,239,0,No
+153,58,Female,Atypical Angina,150,283,1,Yes
+154,51,Male,Asymptomatic,120,255,0,No
+155,44,Female,Typical Angina,140,226,0,No
+156,54,Male,Non-Anginal Pain,140,226,0,No
+157,63,Female,Atypical Angina,130,330,1,Yes
+158,45,Male,Non-Anginal Pain,138,236,0,No
+159,50,Female,Asymptomatic,120,244,0,No
+160,41,Male,Non-Anginal Pain,120,250,0,No
+161,56,Female,Atypical Angina,124,245,0,Yes
+162,67,Male,Asymptomatic,160,286,1,Yes
+163,57,Female,Typical Angina,140,192,0,No
+164,42,Male,Non-Anginal Pain,120,201,0,No
+165,65,Female,Atypical Angina,150,276,0,Yes
+166,58,Male,Asymptomatic,128,259,0,No
+167,49,Female,Typical Angina,130,266,0,No
+168,60,Male,Non-Anginal Pain,130,253,1,Yes
+169,58,Female,Atypical Angina,120,284,0,No
+170,41,Male,Asymptomatic,130,245,0,No
+171,60,Female,Typical Angina,132,220,1,Yes
+172,67,Male,Non-Anginal Pain,120,237,0,Yes
+173,59,Female,Atypical Angina,140,221,0,No
+174,51,Male,Asymptomatic,120,295,0,No
+175,45,Female,Typical Angina,138,236,0,No
+176,56,Male,Non-Anginal Pain,130,283,0,Yes
+177,49,Female,Atypical Angina,130,266,0,No
+178,61,Male,Asymptomatic,120,260,0,No
+179,59,Female,Typical Angina,140,221,0,No
+180,43,Male,Non-Anginal Pain,150,247,0,No
+181,63,Female,Atypical Angina,130,330,1,Yes
+182,45,Male,Asymptomatic,138,236,0,No
+183,50,Female,Typical Angina,120,244,0,No
+184,44,Male,Non-Anginal Pain,130,233,0,No
+185,57,Female,Atypical Angina,130,236,0,Yes
+186,54,Male,Asymptomatic,140,239,0,No
+187,58,Female,Typical Angina,150,283,1,Yes
+188,51,Male,Non-Anginal Pain,120,255,0,No
+189,44,Female,Atypical Angina,140,226,0,No
+190,54,Male,Typical Angina,120,208,0,No
+191,43,Female,Non-Anginal Pain,122,213,1,No
+192,50,Male,Atypical Angina,140,233,0,No
+193,51,Female,Asymptomatic,120,295,0,No
+194,55,Male,Typical Angina,128,205,0,No
+195,64,Female,Non-Anginal Pain,128,263,0,Yes
+196,57,Male,Atypical Angina,110,201,0,No
+197,50,Female,Asymptomatic,120,244,0,No
+198,44,Male,Typical Angina,120,263,0,No
+199,58,Female,Non-Anginal Pain,132,224,0,No
+200,58,Male,Atypical Angina,130,197,0,No
+201,60,Female,Asymptomatic,130,253,0,No
+202,61,Male,Non-Anginal Pain,148,203,0,No
+203,51,Female,Atypical Angina,130,305,0,No
+204,46,Male,Asymptomatic,120,248,0,No
+205,54,Female,Typical Angina,108,267,0,No
+206,60,Male,Non-Anginal Pain,130,206,0,No
+207,46,Female,Atypical Angina,128,248,0,No
+208,59,Male,Asymptomatic,126,218,0,No
+209,57,Female,Typical Angina,140,241,0,No
+210,56,Male,Non-Anginal Pain,140,294,0,Yes
+211,45,Female,Atypical Angina,130,234,0,No
+212,52,Male,Asymptomatic,138,223,0,No
+213,53,Female,Typical Angina,128,216,0,No
+214,62,Male,Non-Anginal Pain,130,263,0,No
+215,54,Female,Atypical Angina,108,309,0,No
+216,60,Male,Asymptomatic,130,206,0,No
+217,50,Female,Typical Angina,120,244,0,No
+218,57,Male,Non-Anginal Pain,130,236,0,Yes
+219,53,Female,Atypical Angina,128,216,0,No
+220,59,Male,Asymptomatic,126,218,0,No
+221,57,Female,Typical Angina,140,241,0,No
+222,56,Male,Non-Anginal Pain,140,294,0,Yes
+223,45,Female,Atypical Angina,130,234,0,No
+224,52,Male,Asymptomatic,138,223,0,No
+225,53,Female,Typical Angina,128,216,0,No
+226,62,Male,Non-Anginal Pain,130,263,0,No
+227,54,Female,Atypical Angina,108,309,0,No
+228,60,Male,Asymptomatic,130,206,0,No
+229,50,Female,Typical Angina,120,244,0,No
+230,57,Male,Non-Anginal Pain,130,236,0,Yes
+231,53,Female,Atypical Angina,128,216,0,No
+232,59,Male,Asymptomatic,126,218,0,No
+233,57,Female,Typical Angina,140,241,0,No
+234,56,Male,Non-Anginal Pain,140,294,0,Yes
+235,45,Female,Atypical Angina,130,234,0,No
+236,52,Male,Asymptomatic,138,223,0,No
+237,53,Female,Typical Angina,128,216,0,No
+238,62,Male,Non-Anginal Pain,130,263,0,No
+239,54,Female,Atypical Angina,108,309,0,No
+240,60,Male,Asymptomatic,130,206,0,No
+241,50,Female,Typical Angina,120,244,0,No
+242,57,Male,Non-Anginal Pain,130,236,0,Yes
+243,53,Female,Atypical Angina,128,216,0,No
+244,59,Male,Asymptomatic,126,218,0,No
+245,57,Female,Typical Angina,140,241,0,No
+246,56,Male,Non-Anginal Pain,140,294,0,Yes
+247,45,Female,Atypical Angina,130,234,0,No
+248,52,Male,Asymptomatic,138,223,0,No
+249,53,Female,Typical Angina,128,216,0,No
+250,62,Male,Non-Anginal Pain,130,263,0,No
+251,54,Female,Atypical Angina,108,309,0,No
+252,60,Male,Asymptomatic,130,206,0,No
+253,50,Female,Typical Angina,120,244,0,No
+254,57,Male,Non-Anginal Pain,130,236,0,Yes
+255,53,Female,Atypical Angina,128,216,0,No
+256,56,Male,Asymptomatic,140,294,0,Yes
+257,49,Female,Atypical Angina,118,149,0,No
+258,57,Male,Non-Anginal Pain,120,354,0,Yes
+259,64,Female,Typical Angina,130,303,0,Yes
+260,58,Male,Asymptomatic,140,211,0,No
+261,50,Female,Non-Anginal Pain,150,243,0,No
+262,60,Male,Typical Angina,130,206,0,No
+263,59,Female,Asymptomatic,170,326,0,Yes
+264,55,Male,Atypical Angina,140,217,0,No
+265,60,Female,Non-Anginal Pain,130,253,0,No
+266,60,Male,Typical Angina,130,253,0,No
+267,62,Female,Asymptomatic,138,294,0,Yes
+268,53,Male,Non-Anginal Pain,130,264,0,No
+269,53,Female,Atypical Angina,130,264,0,No
+270,45,Male,Typical Angina,138,236,0,Yes
+271,62,Female,Asymptomatic,120,220,0,No
+272,57,Male,Non-Anginal Pain,150,276,0,Yes
+273,56,Female,Atypical Angina,130,283,0,Yes
+274,56,Male,Non-Anginal Pain,120,260,0,No
+275,54,Female,Typical Angina,140,239,0,No
+276,60,Male,Asymptomatic,130,206,0,No
+277,50,Female,Non-Anginal Pain,150,243,0,No
+278,60,Male,Typical Angina,130,253,0,No
+279,59,Female,Asymptomatic,170,326,0,Yes
+280,55,Male,Atypical Angina,140,217,0,No
+281,60,Female,Non-Anginal Pain,130,253,0,No
+282,60,Male,Typical Angina,130,253,0,No
+283,62,Female,Asymptomatic,138,294,0,Yes
+284,53,Male,Non-Anginal Pain,130,264,0,No
+285,53,Female,Atypical Angina,130,264,0,No
+286,45,Male,Typical Angina,138,236,0,Yes
+287,62,Female,Asymptomatic,120,220,0,No
+288,45,Male,Atypical Angina,140,234,0,No
+289,65,Female,Non-Anginal Pain,150,225,0,Yes
+290,56,Male,Asymptomatic,130,283,0,Yes
+291,54,Female,Typical Angina,140,239,0,No
+292,50,Male,Non-Anginal Pain,140,243,0,No
+293,41,Female,Asymptomatic,130,204,0,No
+294,52,Male,Atypical Angina,120,325,0,Yes
+295,64,Female,Non-Anginal Pain,130,254,0,Yes
+296,48,Male,Asymptomatic,130,245,0,No
+297,47,Female,Non-Anginal Pain,120,205,0,No
+298,45,Male,Typical Angina,130,234,0,Yes
+299,67,Female,Asymptomatic,115,564,0,Yes
+300,64,Male,Atypical Angina,130,303,0,Yes
+301,56,Female,Non-Anginal Pain,134,409,0,Yes
+302,52,Male,Typical Angina,128,204,0,No
+303,48,Female,Asymptomatic,120,245,0,No
+304,54,Male,Non-Anginal Pain,140,239,0,No
+305,54,Female,Atypical Angina,140,239,0,No
+306,59,Male,Asymptomatic,135,234,0,Yes
+307,40,Female,Non-Anginal Pain,115,303,0,No
+308,55,Male,Typical Angina,135,254,0,Yes
+309,59,Female,Asymptomatic,170,326,0,Yes
+310,55,Male,Atypical Angina,140,217,0,No
+311,60,Female,Non-Anginal Pain,130,253,0,No
+312,60,Male,Typical Angina,130,253,0,No
+313,62,Female,Asymptomatic,138,294,0,Yes
+314,53,Male,Non-Anginal Pain,130,264,0,No
+315,53,Female,Atypical Angina,130,264,0,No
+316,45,Male,Typical Angina,138,236,0,Yes
+317,62,Female,Asymptomatic,120,220,0,No
+318,57,Male,Non-Anginal Pain,150,276,0,Yes
+319,56,Female,Atypical Angina,130,283,0,Yes
+320,58,Male,Atypical Angina,120,284,0,Yes
+321,53,Female,Non-Anginal Pain,150,226,0,No
+322,60,Male,Asymptomatic,135,234,0,Yes
+323,41,Female,Typical Angina,120,204,0,No
+324,50,Male,Non-Anginal Pain,130,256,0,No
+325,58,Female,Asymptomatic,130,197,0,No
+326,60,Male,Typical Angina,140,293,0,Yes
+327,41,Female,Atypical Angina,135,255,0,No
+328,48,Male,Non-Anginal Pain,130,256,0,No
+329,47,Female,Typical Angina,120,235,0,No
+330,59,Male,Asymptomatic,140,218,0,Yes
+331,52,Female,Non-Anginal Pain,118,186,0,No
+332,47,Male,Atypical Angina,138,257,0,Yes
+333,57,Female,Non-Anginal Pain,130,236,0,No
+334,47,Male,Asymptomatic,130,253,0,No
+335,54,Female,Atypical Angina,135,304,0,Yes
+336,60,Male,Non-Anginal Pain,120,258,0,No
+337,47,Female,Typical Angina,110,275,0,No
+338,53,Male,Atypical Angina,130,197,0,No
+339,43,Female,Non-Anginal Pain,120,237,0,No
+340,56,Male,Asymptomatic,120,236,0,No
+341,60,Female,Typical Angina,145,282,0,Yes
+342,56,Male,Non-Anginal Pain,130,283,0,Yes
+343,61,Female,Asymptomatic,130,330,0,Yes
+344,41,Male,Atypical Angina,120,222,0,No
+345,54,Female,Non-Anginal Pain,120,245,0,No
+346,50,Male,Typical Angina,130,256,0,No
+347,44,Female,Asymptomatic,120,220,0,No
+348,48,Male,Non-Anginal Pain,120,295,0,No
+349,56,Female,Atypical Angina,125,297,0,Yes
+350,56,Male,Non-Anginal Pain,130,283,0,Yes
+351,54,Female,Typical Angina,120,247,0,No
+352,52,Male,Atypical Angina,128,225,0,No
+353,54,Female,Non-Anginal Pain,130,242,0,No
+354,59,Male,Asymptomatic,170,326,0,Yes
+355,48,Female,Typical Angina,122,222,0,No
+356,53,Male,Non-Anginal Pain,138,234,0,No
+357,43,Female,Atypical Angina,122,213,0,No
+358,57,Male,Non-Anginal Pain,150,276,0,Yes
+359,48,Female,Asymptomatic,110,243,0,No
+360,51,Male,Typical Angina,120,295,0,Yes
+361,44,Female,Non-Anginal Pain,130,246,0,No
+362,55,Male,Asymptomatic,140,232,0,No
+363,56,Female,Typical Angina,130,283,0,Yes
+364,52,Male,Non-Anginal Pain,128,205,0,No
+365,61,Female,Atypical Angina,138,166,0,Yes
+366,57,Male,Non-Anginal Pain,130,233,0,No
+367,44,Female,Asymptomatic,112,290,0,No
+368,62,Male,Typical Angina,130,263,0,Yes
+369,45,Female,Non-Anginal Pain,138,236,0,No
+370,49,Male,Asymptomatic,140,262,0,Yes
+371,63,Female,Typical Angina,128,303,0,Yes
+372,50,Male,Non-Anginal Pain,120,219,0,No
+373,54,Female,Atypical Angina,140,239,0,No
+374,63,Male,Non-Anginal Pain,130,254,0,Yes
+375,46,Female,Asymptomatic,105,204,0,No
+376,59,Male,Typical Angina,140,221,0,Yes
+377,56,Female,Non-Anginal Pain,130,283,0,Yes
+378,62,Male,Asymptomatic,130,231,0,No
+379,52,Female,Typical Angina,130,270,0,No
+380,44,Male,Atypical Angina,118,242,0,No
+381,47,Female,Non-Anginal Pain,108,243,0,No
+382,57,Male,Asymptomatic,128,229,0,No
+383,58,Female,Typical Angina,112,230,0,No
+384,49,Male,Atypical Angina,120,188,0,No
+385,64,Female,Non-Anginal Pain,120,246,0,No
+386,59,Male,Asymptomatic,140,177,0,Yes
+387,51,Female,Typical Angina,130,305,0,Yes
+388,42,Male,Non-Anginal Pain,120,240,0,No
+389,59,Female,Atypical Angina,160,273,0,Yes
+390,64,Male,Asymptomatic,120,246,0,Yes
+391,45,Female,Non-Anginal Pain,138,236,0,No
+392,58,Male,Atypical Angina,128,216,0,No
+393,44,Female,Typical Angina,110,197,0,No
+394,47,Male,Non-Anginal Pain,130,253,0,No
+395,52,Female,Atypical Angina,134,201,0,No
+396,48,Male,Non-Anginal Pain,130,245,0,Yes
+397,56,Female,Asymptomatic,130,221,0,No
+398,52,Male,Atypical Angina,130,308,0,Yes
+399,54,Female,Non-Anginal Pain,124,266,0,Yes
+400,50,Male,Asymptomatic,140,233,0,No
+401,52,Female,Typical Angina,134,201,0,No
+402,55,Male,Non-Anginal Pain,128,205,0,No
+403,48,Female,Atypical Angina,130,245,0,No
+404,58,Male,Non-Anginal Pain,136,319,0,Yes
+405,45,Female,Typical Angina,130,234,0,No
+406,60,Male,Asymptomatic,130,253,0,Yes
+407,41,Female,Non-Anginal Pain,120,250,0,No
+408,52,Male,Atypical Angina,136,196,0,No
+409,47,Female,Typical Angina,110,275,0,No
+410,54,Male,Non-Anginal Pain,132,288,0,Yes
+411,39,Female,Atypical Angina,138,220,0,No
+412,50,Male,Non-Anginal Pain,140,233,0,No
+413,54,Female,Asymptomatic,140,239,0,No
+414,49,Male,Typical Angina,134,271,0,No
+415,57,Female,Non-Anginal Pain,154,232,0,Yes
+416,53,Male,Asymptomatic,128,216,0,No
+417,45,Female,Atypical Angina,130,234,0,No
+418,61,Male,Non-Anginal Pain,120,260,0,Yes
+419,47,Female,Typical Angina,138,257,0,No
+420,54,Male,Non-Anginal Pain,132,207,0,No
+421,56,Female,Asymptomatic,130,283,0,Yes
+422,41,Male,Atypical Angina,110,235,0,No
+423,50,Female,Non-Anginal Pain,150,243,0,Yes
+424,55,Male,Asymptomatic,130,262,0,Yes
+425,53,Female,Typical Angina,128,216,0,No
+426,48,Male,Non-Anginal Pain,124,274,0,Yes
+427,58,Female,Atypical Angina,140,211,0,No
+428,60,Male,Non-Anginal Pain,130,206,0,Yes
+429,39,Female,Typical Angina,118,219,0,No
+430,44,Male,Non-Anginal Pain,130,233,0,No
+431,66,Female,Asymptomatic,160,246,0,No
+432,63,Male,Atypical Angina,130,233,0,Yes
+433,42,Female,Non-Anginal Pain,148,244,0,No
+434,53,Male,Asymptomatic,138,234,0,Yes
+435,55,Female,Typical Angina,138,218,0,Yes
+436,58,Male,Non-Anginal Pain,128,259,0,Yes
+437,50,Female,Atypical Angina,120,244,0,No
+438,60,Male,Non-Anginal Pain,130,253,0,Yes
+439,49,Female,Typical Angina,130,269,0,Yes
+440,55,Male,Non-Anginal Pain,128,205,0,No
+441,58,Female,Asymptomatic,140,211,0,No
+442,48,Male,Atypical Angina,124,274,0,Yes
+443,52,Female,Non-Anginal Pain,138,223,0,No
+444,46,Male,Asymptomatic,105,204,0,No
+445,62,Female,Typical Angina,138,294,0,Yes
+446,43,Male,Non-Anginal Pain,115,303,0,No
+447,58,Male,Non-Anginal Pain,128,259,0,Yes
+448,47,Female,Typical Angina,138,257,0,No
+449,50,Male,Non-Anginal Pain,150,243,0,Yes
+450,64,Female,Asymptomatic,140,257,0,Yes
+451,44,Male,Atypical Angina,120,220,0,No
+452,56,Female,Non-Anginal Pain,130,283,0,Yes
+453,57,Male,Asymptomatic,130,236,0,No
+454,55,Female,Typical Angina,140,246,0,Yes
+455,45,Male,Non-Anginal Pain,130,234,0,No
+456,46,Female,Atypical Angina,122,254,0,No
+457,41,Male,Asymptomatic,110,235,0,No
+458,53,Female,Non-Anginal Pain,128,216,0,No
+459,52,Male,Atypical Angina,118,186,0,No
+460,47,Female,Typical Angina,138,214,0,No
+461,61,Male,Non-Anginal Pain,120,260,0,Yes
+462,48,Female,Non-Anginal Pain,122,222,0,No
+463,52,Male,Asymptomatic,136,196,0,No
+464,50,Female,Typical Angina,120,244,0,No
+465,62,Male,Non-Anginal Pain,138,294,0,Yes
+466,45,Female,Atypical Angina,128,308,0,Yes
+467,54,Male,Non-Anginal Pain,132,207,0,No
+468,46,Female,Asymptomatic,142,177,0,No
+469,49,Male,Atypical Angina,134,271,0,Yes
+470,51,Female,Typical Angina,130,305,0,Yes
+471,56,Male,Non-Anginal Pain,130,283,0,Yes
+472,54,Female,Asymptomatic,120,247,0,No
+473,57,Male,Typical Angina,150,168,0,No
+474,56,Female,Non-Anginal Pain,130,256,0,Yes
+475,42,Male,Atypical Angina,140,226,0,No
+476,61,Female,Asymptomatic,140,207,0,Yes
+477,54,Male,Non-Anginal Pain,110,239,0,No
+478,60,Female,Typical Angina,130,253,0,Yes
+479,55,Male,Non-Anginal Pain,142,232,0,No
+480,43,Female,Asymptomatic,130,315,0,Yes
+481,58,Male,Atypical Angina,120,284,0,Yes
+482,47,Female,Non-Anginal Pain,110,275,0,No
+483,51,Male,Asymptomatic,120,295,0,Yes
+484,59,Female,Typical Angina,118,282,0,Yes
+485,49,Male,Non-Anginal Pain,130,266,0,No
+486,56,Female,Atypical Angina,140,252,0,No
+487,61,Male,Asymptomatic,140,264,0,Yes
+488,57,Female,Non-Anginal Pain,150,270,0,Yes
+489,44,Male,Typical Angina,130,219,0,No
+490,50,Female,Asymptomatic,130,248,0,No
+491,58,Male,Non-Anginal Pain,128,259,0,Yes
+492,47,Female,Typical Angina,138,257,0,No
+493,50,Male,Non-Anginal Pain,150,243,0,Yes
+494,64,Female,Asymptomatic,140,257,0,Yes
+495,44,Male,Atypical Angina,120,220,0,No
+496,56,Female,Non-Anginal Pain,130,283,0,Yes
+497,57,Male,Asymptomatic,130,236,0,No
+498,55,Female,Typical Angina,140,246,0,Yes
+499,45,Male,Non-Anginal Pain,130,234,0,No
+500,46,Female,Atypical Angina,122,254,0,No
+501,41,Male,Asymptomatic,110,235,0,No
+502,53,Female,Non-Anginal Pain,128,216,0,No
+503,52,Male,Atypical Angina,118,186,0,No
+504,47,Female,Typical Angina,138,214,0,No
+505,61,Male,Non-Anginal Pain,120,260,0,Yes
+506,48,Female,Non-Anginal Pain,122,222,0,No
+507,52,Male,Asymptomatic,136,196,0,No
+508,50,Female,Typical Angina,120,244,0,No
+509,62,Male,Non-Anginal Pain,138,294,0,Yes
+510,55,Female,Asymptomatic,130,254,0,Yes
+511,42,Male,Non-Anginal Pain,140,226,0,No
+512,57,Female,Atypical Angina,120,258,0,Yes
+513,43,Male,Typical Angina,122,213,0,No
+514,63,Female,Asymptomatic,140,195,0,No
+515,50,Male,Non-Anginal Pain,122,261,0,Yes
+516,54,Female,Typical Angina,124,266,0,No
+517,41,Male,Atypical Angina,130,214,0,No
+518,57,Female,Non-Anginal Pain,130,253,0,Yes
+519,63,Male,Asymptomatic,130,233,0,No
+520,55,Female,Typical Angina,140,207,0,No
+521,54,Male,Non-Anginal Pain,120,192,0,No
+522,45,Female,Asymptomatic,112,260,0,Yes
+523,52,Male,Non-Anginal Pain,118,186,0,No
+524,64,Female,Atypical Angina,130,234,0,Yes
+525,53,Male,Asymptomatic,128,216,0,Yes
+526,45,Female,Typical Angina,120,212,0,No
+527,58,Male,Non-Anginal Pain,130,197,0,No
+528,47,Female,Atypical Angina,120,229,0,No
+529,56,Male,Asymptomatic,140,294,0,Yes
+530,59,Female,Non-Anginal Pain,142,316,0,Yes
+531,63,Male,Typical Angina,130,254,0,Yes
+532,47,Female,Asymptomatic,110,204,0,No
+533,59,Male,Non-Anginal Pain,140,221,0,Yes
+534,48,Female,Typical Angina,122,222,0,No
+535,57,Male,Atypical Angina,150,240,0,Yes
+536,43,Female,Non-Anginal Pain,150,247,0,Yes
+537,52,Male,Asymptomatic,128,255,0,Yes
+538,56,Female,Atypical Angina,130,221,0,No
+539,48,Male,Non-Anginal Pain,124,274,0,Yes
+540,58,Female,Typical Angina,130,197,0,No
