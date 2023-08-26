@@ -1,32 +1,28 @@
-### Cześć! 👋
+### Materiały 📖
 
-Wylądowaliście na GitHubie bezpośrednio powiązanym z blogiem [danetyk.pl](https://danetyk.pl/). Znajdziecie tutaj 
-[PDFy](https://github.com/danetykpl/danetykpl/tree/main/artyku%C5%82y) artykułów już opublikowanych na blogu, 
-jak i ciekawe materiały dodatkowe, tj. [notatniki](https://github.com/danetykpl/danetykpl/tree/main/notatniki), 
-[zestawy danych](https://github.com/danetykpl/danetykpl/tree/main/notatniki/zestawy_danych), 
-projekty, receptury, publikacje naukowe i inne ciekawe materiały związane z danetyką. Zachęcam więc do zaglądania 
-tutaj co jakiś czas i korzystania z udostępnionych materiałów 🤖
+Wylądowaliście na GitHubie bezpośrednio powiązanym z portalem [danetyk.pl](https://danetyk.pl/). Znajdziecie tutaj materiały związane z funkcjonowaniem portalu i publikowanymi na nim treściami.
 
 ### Media społecznościowe 🤝
 
-* [Facebook](https://www.facebook.com/danetykpl) - znajdziecie tutaj newsy dotyczące funkcjonowania bloga.
+Zapraszamy do odwiedzania naszych innych mediów:
+
+* [Discord](https://discord.gg/TZYfQGsn) - dedykowany serwer, na którym możecie rozmawiać na temat wszystkiego tego, co teoretyczne i praktyczne w danetyce. 
+* [Facebook](https://www.facebook.com/danetykpl) - znajdziecie tutaj prasówki ze świata danych i materiały pomocne w nauce i w pracy.
 * [Kaggle](https://www.kaggle.com/danetykpl) - znajdziecie tutaj zestawy danych i notebooki.
-* [Discord](https://discord.gg/sJbTqMsZEM) - dedykowany serwer, na którym możecie rozmawiać na temat wszystkiego tego, co teoretyczne i praktyczne w danetyce. 
 
 ### Kontakt 📫
 W sprawach wszelakich piszcie na kontakt@danetyk.pl.
 
 ---
 
-### Autopromocja (za coś trzeba przecież zatankować Maybacha) 🌱
+### Autopromocja 🌱
 
-Zachęcam do zainteresowania się moimi szkoleniami, które tworzę dla Strefy Kursów:
+Nasze szkolenia:
 
- * [Fundamenty programowania w Python](https://strefakursow.pl/kursy/programowanie/fundamenty_programowania_w_python.html?ref=111440)
- * [Fundamenty języka Java](https://strefakursow.pl/kursy/programowanie/fundamenty_jezyka_java.html?ref=111440)
+ * [(Strefa Kursów) Fundamenty przetwarzania i analizy danych w SQL](https://strefakursow.pl/kursy/programowanie/fundamenty_przetwarzania_i_analizy_danych_w_sql.html?ref=111440)
+ * [(Strefa Kursów) Fundamenty programowania w Python](https://strefakursow.pl/kursy/programowanie/fundamenty_programowania_w_python.html?ref=111440)
+ * [(Strefa Kursów) Fundamenty języka Java](https://strefakursow.pl/kursy/programowanie/fundamenty_jezyka_java.html?ref=111440)
   
-Od każdego zakupu mojego szkolenia po wejściu przez w/w linki dostaję kilka złotych prowizji. Nie musicie jednak dzięki 
-temu płacić za szkolenia pełnej kwoty, bo możecie skorzystać z przygotowanych dla Was kodów rabatowych -30% `PL30FB` 
-(ważny przez ograniczony czas) oraz -10% `ANco2` (nagroda pocieszenia, gdy pierwszy kod straci ważność).
+Od każdego zakupu szkolenia po wejściu przez w/w linki dostajemy kilka złotych prowizji. 
 
-Z góry dziękuję za zainteresowanie.
+Z góry dziękujemy za zainteresowanie 🙏
