@@ -17,12 +17,8 @@ W sprawach wszelakich piszcie na kontakt@danetyk.pl.
 
 ### Autopromocja 🌱
 
-Nasze szkolenia:
+Zachęcamy do zainteresowania się naszymi szkoleniami:
 
- * [(Strefa Kursów) Fundamenty przetwarzania i analizy danych w SQL](https://strefakursow.pl/kursy/programowanie/fundamenty_przetwarzania_i_analizy_danych_w_sql.html?ref=111440)
- * [(Strefa Kursów) Fundamenty programowania w Python](https://strefakursow.pl/kursy/programowanie/fundamenty_programowania_w_python.html?ref=111440)
- * [(Strefa Kursów) Fundamenty języka Java](https://strefakursow.pl/kursy/programowanie/fundamenty_jezyka_java.html?ref=111440)
-  
-Od każdego zakupu szkolenia po wejściu przez w/w linki dostajemy kilka złotych prowizji. 
-
-Z góry dziękujemy za zainteresowanie 🙏
+ * [Fundamenty przetwarzania i analizy danych w SQL](https://strefakursow.pl/kursy/programowanie/fundamenty_przetwarzania_i_analizy_danych_w_sql.html?ref=111440)
+ * [Fundamenty programowania w Python](https://strefakursow.pl/kursy/programowanie/fundamenty_programowania_w_python.html?ref=111440)
+ * [Fundamenty języka Java](https://strefakursow.pl/kursy/programowanie/fundamenty_jezyka_java.html?ref=111440)
