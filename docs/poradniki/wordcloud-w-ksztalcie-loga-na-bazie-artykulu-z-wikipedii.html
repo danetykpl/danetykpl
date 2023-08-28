@@ -195,6 +195,20 @@ filtered_df = df[df['Words'].str.contains(r'\w', na=False)]
 # Save filtered DataFrame as CSV file
 filtered_df.to_csv(&quot;wikipedia_data_science.csv&quot;, index=False)
 </code></pre>
+
+                                    <hr />
+<p><strong>Autopromocja 🌱</strong></p>
+<p>Zachęcamy do zainteresowania się naszymi szkoleniami, które tworzymy dla Strefy Kursów:</p>
+<ul>
+    <li><a href="https://strefakursow.pl/kursy/programowanie/fundamenty_przetwarzania_i_analizy_danych_w_sql.html?ref=111440">Fundamenty przetwarzania i analizy danych w SQL</a></li>
+<li><a href="https://strefakursow.pl/kursy/programowanie/fundamenty_programowania_w_python.html?ref=111440">Fundamenty programowania w Python</a></li>
+<li><a href="https://strefakursow.pl/kursy/programowanie/fundamenty_jezyka_java.html?ref=111440">Fundamenty języka Java</a></li>
+</ul>
+
+<p>Od każdego zakupu naszego szkolenia po wejściu przez w/w linki dostajemy kilka złotych prowizji. </p>
+<p>Z góry dziękujemy za zainteresowanie.</p>
+<hr />
+
 <h2>Wizualizacja chmury słów</h2>
 <p>Do tworzenia chmur słów wykorzystamy bibliotekę <a href="http://amueller.github.io/word_cloud/">WordCloud</a>. Zanim jednak przejdziemy
 do implementacji i omawiania rozwiązania stanowiącego trzon tej opowieści, to przyjrzyjmy się w jaki sposób, najprostszy sposób,
@@ -220,7 +234,8 @@ plt.imshow(wordcloud)
 plt.show()
 </code></pre>
 <p>I po odpaleniu skryptu dostaniemy w rezultacie coś takiego:</p>
-<p><img width="100%" src="../assets/poradniki/poradnik_1/example_1.png" /></p>
+<figure class="mb-4"><img class="img-fluid rounded" src="../assets/poradniki/poradnik_1/example_1.png" alt="..." /></figure>
+
 <p>Jak więc widzimy nawet w tak podstawowej formie chmura słów jest wyjątkowo ciekawym sposobem wizualizacji
 danych tekstowych. Nam zależy jednak na rozwiązaniu o wiele bardziej ciekawym, choć niestety to przełoży się na odrobinę
 dłuższy i bardziej skomplikowany kod. Ale zostańcie ze mną do końca bo warto 😉</p>
@@ -232,7 +247,7 @@ png_file = 'logo_text_mask.png'  # Specify the PNG file to read mask from.
 <p>W pierwszej linii definiuję nazwę pliku CSV, w którym przechowywane są słowa z artykułu pobranego z Wikipedii.
 W drugiej linii natomiast zamieszczam nazwę pliku PNG, który wykorzystamy do utworzenia chmury słów w obrębie liter
 loga <code>danetyk</code>. Plik ten wygląda tak:</p>
-<p><img width="100%" src="../assets/poradniki/poradnik_1/logo_text_mask.png" /></p>
+<figure class="mb-4"><img class="img-fluid rounded" src="../assets/poradniki/poradnik_1/logo_text_mask.png" alt="..." /></figure>
 <p>Pewnie tego nie widać, ale grafika ta posiada białe tło oraz czarne litery. Ważne jest jednak to, aby tło miało wszystkie
 wartości RGB równe 255, natomiast dla liter, aby wartości RGB były równe 0. Jest ważne o tyle, że wykorzystanie tej grafiki
 jako maski spowoduje, że podczas tworzenia chmury słów ta przyjmie rozmiar maski, ale wypełni słowami jedynie miejsca,
@@ -282,7 +297,7 @@ plt.imshow(wordcloud, interpolation=&quot;bilinear&quot;)
 plt.show()
 </code></pre>
 <p>Jednak gdy teraz uruchomimy tak napisany skrypt...</p>
-<p><img width="100%" src="../assets/poradniki/poradnik_1/example_2.png" /></p>
+<figure class="mb-4"><img class="img-fluid rounded" src="../assets/poradniki/poradnik_1/example_2.png" alt="..." /></figure>
 <p>...to niestety efekt nie należy do tych najwyższych lotów 🙃 W tym celu musimy "trochę" dopieścić ten skrypt, przy czym
 całość wygląda nastepująco:</p>
 <pre><code class="language-python">import pandas as pd
@@ -371,7 +386,7 @@ plt.tight_layout()
 plt.show()
 </code></pre>
 <p>Efekt wywołania tego skryptu jest następujący:</p>
-<p><img width="100%" src="../assets/poradniki/poradnik_1/example_3.png" /></p>
+<figure class="mb-4"><img class="img-fluid rounded" src="../assets/poradniki/poradnik_1/example_3.png" alt="..." /></figure>
 <p>Dotychczasowy kod wzbogaciłem o kilka kluczowych elementów. Po pierwsze dodałem kilka dodatkowych parametrów na jego początku,
 które mogą być ustawiane przez użytkownika. Mowa tutaj konkretnie o <code>use_desired_color</code>, <code>cloud_desired_color</code>, <code>use_random_color</code>,
 <code>crc</code>, <code>cloud_width</code>, <code>cloud_height</code>, <code>repeat_words</code> i <code>background_color</code>. Ustawienie <code>use_desired_color</code> na <code>True</code> spowoduje,
@@ -386,9 +401,12 @@ z brzegu jest <code>colormap</code>, który przyjmuje nazwy skal kolorystycznych
 <a href="https://matplotlib.org/stable/tutorials/colors/colormaps.html">Tutaj</a> znajdziecie pełną listę tych skal. Jeżeli jednak
 chcemy z tych skal skorzystać, to musimy pamiętać o rezygnacji z argumentu <code>color_func</code> - albo jedno, albo drugie.
 Ogólnie zachęcam do zapoznania się z pozostałymi parametrami klasy <code>WordCloud</code>. Do następngo! 👋</p>
-<p><img width="100%" src="../assets/poradniki/poradnik_1/example_4.png" /></p>
+<figure class="mb-4"><img class="img-fluid rounded" src="../assets/poradniki/poradnik_1/example_4.png" alt="..." /></figure>
+
+
 
 <h2>Materiały</h2>
+                                    Wszystkie materiały wykorzystane w tym poradniku znajdziecie na GitHubie:
 <a href="https://github.com/danetykpl/danetykpl/tree/main/materialy/poradniki/poradnik_1">https://github.com/danetykpl/danetykpl/tree/main/materialy/poradniki/poradnik_1</a>
 
 
