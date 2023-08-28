@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Danetyk</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="../css/styles.css" rel="stylesheet" />
+
+
+        <link rel="stylesheet" href="../highlight/styles/ir-black.min.css">
+        <script src="../highlight/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
+
+    </head>
+    <body class="d-flex flex-column">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container px-5">
+                    <a class="navbar-brand" href="../index.html"><img src="../assets/on_transparent.png" height="30" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="https://discord.gg/TZYfQGsn"><i class="bi-discord"></i> Discord</a></li>
+                            <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/danetykpl">Facebook</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Page Content-->
+            <section class="py-5">
+                <div class="container px-5 my-5">
+                    <div class="row gx-5">
+                        <div class="col-lg-3">
+                            <div class="d-flex align-items-center mt-lg-5 mb-4">
+                                <img class="img-fluid rounded-circle" src="../assets/danetykpl_small.png" alt="..." />
+                                <div class="ms-3">
+                                    <div class="fw-bold">danetyk.pl</div>
+<!--                                    <div class="text-muted">Naczelny</div>-->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-9">
+                            <!-- Post content-->
+
+                            <article>
+
+                                <!-- Post header-->
+                                <header class="mb-4">
+                                    <!-- Post title-->
+                                    <h1 class="fw-bolder mb-1">WordCloud w kształcie loga na bazie artykułu z Wikipedii</h1>
+                                    <!-- Post meta content-->
+                                    <br>
+<!--                                    <div class="text-muted fst-italic mb-2">January 1, 2023</div>-->
+                                    <!-- Post categories-->
+                                    <div class="badge bg-success bg-gradient rounded-pill mb-2">Poradnik</div> <div class="badge bg-dark bg-gradient rounded-pill mb-2">Python</div>
+                                </header>
+                                <!-- Preview image figure-->
+                                <figure class="mb-4"><img class="img-fluid rounded" src="../assets/poradniki/poradnik_1/poradnik_1_1.png" alt="..." /></figure>
+                                <!-- Post content-->
+                                <section class="mb-5">
+
+
+<p>WordCloud, czyli mówiąc w języku naszych ojców <em>chmura słów</em>, to wyjątkowo ciekawa i czasem równie użyteczna forma
+wizualizacji. Poza tym, że fajnie jest sobie od czasu do czasu "pomalować" logo swojej firmy słowami wybranego
+artykułu z Wikipedii, to chmury słów mają również swoje zastosowanie w przetwarzaniu danych i komunikacji wyników,
+z naciskiem na to drugie. W mojej ocenie, chmura słów, to trochę coś w rodzaju
+<a href="https://en.wikipedia.org/wiki/Treemapping">mapy drzewa</a>, tyle że w formie wyrazowej. Niemniej, w tym poradniku nauczymy
+się kilku rzeczy. Po pierwsze, nauczymy się pobierać artykuły z Wikipedii. Po drugie, nauczymy się wizualizować
+słowa pobranych artykułów w postaci chmur słów. No i po trzecie, nauczymy się nadawać tym chmurom porządany przez nas kształt.
+Zabierajmy się do pracy!</p>
+<h2>Pobieranie artykułu z Wikipedii</h2>
+<p>W pierwszej kolejności zajmiemy się pobraniem wybranych artykułów z Wikipedii i odpowiednim ich przetwarzaniem do formy,
+która może być następnie wykorzystana przy tworzeniu chmury słów. Pobierać artykuły możemy na kilka sposobów. Jednym
+z nich jest wykorzystanie bilioteki <a href="https://pypi.org/project/Wikipedia-API/"><code>wikipedia-api</code></a>. Jeżeli nie mamy jej
+zainstalowanej, to oczywiście najpierw ją instalujemy.</p>
+<p>Zanim pobierzemy jakikolwiek artykuł, to na początek musimy stworzyć łańcuch znaków, który będzie zawierał informacje
+o przeglądarce, z której korzystamy, naszych danych kontaktowych, a także bibliotece, z której korzystamy do pobierania
+treści z Wikipedii. Dlaczego? Bo Wikipedia sobie tego życzy. Więcej na temat polityki z tym związanej przeczytacie
+<a href="https://meta.wikimedia.org/wiki/User-Agent_policy">tutaj</a>.</p>
+<pre><code class="language-python">import wikipediaapi
+
+# Define a custom user agent as per Wikipedia's guidelines
+ua_client= &quot;Mozilla/5.0&quot;
+ua_contact = &quot;agent.smith@gmail.com&quot;
+ua_library = &quot;wikipedia-api/0.6.0&quot;
+user_agent = f&quot;{ua_client} ({ua_contact}) {ua_library}&quot;
+</code></pre>
+<p>Następnie, inicjalizujemy obiekt <code>Wikipedia</code>, przekazując do jego konstruktora argument określający wersję językową
+Wikipedii, z której będziemy pobierać artykuły, a także argument zawierający stworzony wcześniej łańcuch znaków z
+pożądanymi przez Wikipedię informacjami.</p>
+<pre><code class="language-python"># Define the language and user agent
+lang = wikipediaapi.Wikipedia(language=&quot;en&quot;, user_agent=user_agent)
+</code></pre>
+<p>Chcąc, żeby wszystko było jasne i klarowne definiuję zmienną <code>article_title</code>, którą przypisuję do łańcucha znaków będącego
+kropka w kropkę tytułem artykułu, który chcemy pobrać z Wikipedii - pamiętamy również o wybranym języku. To znaczy, jeżeli
+ustawiliśmy <code>language="en"</code>, to API założy, że chcemy pobierać artykuły z wersji anglojęzycznej Wikipedii.</p>
+<pre><code class="language-python"># Define the title of the Wikipedia article
+article_title = &quot;Data science&quot;
+</code></pre>
+<p>Ostatecznie pobieramy całą stronę i ekstrachujemy z niej tekst.</p>
+<pre><code class="language-python"># Get the Wikipedia page for the specified article
+page = lang.page(article_title)
+
+# Get the text content of the article
+article_text = page.text
+</code></pre>
+<p>I <em>voila</em>, tekst artykułu mamy pobrany. Występuje on obecnie w formie pojedynczego łańcucha znaków, z którego musimy teraz
+wyektrachować słowa i pozbyć się innych znaków, takich jak przecinki, kropki, apostrofy i tego typu inne rzeczy. Użyjemy w tym
+celu pakietu do przetwarzania języka naturalnego o nazwie <a href="https://www.nltk.org/">NLTK</a>, który pomoże nam podzielić łańcuch
+znaków na pojedyncze elementy w interesujący nas sposób. Chcemy mianowicie oddzielić słowa od wszystkiego tego, co słowami nie jest.</p>
+<pre><code class="language-python">...
+
+import nltk
+from nltk.tokenize import word_tokenize
+
+...
+
+# Tokenize the article text into words
+nltk.download(&quot;punkt&quot;)  # Download NLTK tokenizer data if not already downloaded
+words = word_tokenize(article_text)
+</code></pre>
+<p>Oczywiście jeżeli nie macie tego pakietu, to go najpierw zainstalujćie 😉 Niemniej, w linijce <code>nltk.download("punkt")</code>,
+NLTK łączy się ze swoim serwerem danych i pobiera zbiór danych "punkt" na lokalny komputer, jeśli jeszcze go nie ma.
+Ten zbiór danych jest stosunkowo niewielki i zawiera informacje o tokenizacji zdań i słów. Czyli innymi słowy pozwala
+tokenizerowi tokenizować, czyli po prostu ciąć tekst na słowa (mówiąc w skrócie). Jeżeli więc sobie teraz wyświetlimy
+zawartość zmiennej <code>words</code>, to zobaczymy w konsoli coś takiego:</p>
+<pre><code class="language-console">['Data', 'science', 'is', 'an', 'interdisciplinary', 'academic', 'field', 'that', 'uses', 'statistics', ',' ...
+</code></pre>
+<p>Ostatnim krokiem jest pozbycie się z tej listy wszystkich elementów nie będących słowami i zapisanie listy słów do pliku
+CSV w pojedynczej kolumnie. Możemy do tego celu wykorzystać bibliotekę <code>pandas</code> i obiekt typu <code>DataFrame</code>.</p>
+<pre><code class="language-python">...
+
+import pandas as pd
+
+...
+
+# Create a DataFrame with a single column &quot;Words&quot;
+df = pd.DataFrame({&quot;Words&quot;: words})
+
+# Filter rows that contain words
+filtered_df = df[df['Words'].str.contains(r'\w', na=False)]
+
+# Save filtered DataFrame as CSV file
+filtered_df.to_csv(&quot;wikipedia_data_science.csv&quot;, index=False)
+</code></pre>
+<p>Tadam! W ten sposób udało nam się stworzyć <em>input</em> do chmury słów. Cały skrypt wygląda następująco:</p>
+<pre><code class="language-python">import wikipediaapi
+import nltk
+from nltk.tokenize import word_tokenize
+import pandas as pd
+
+# Define a custom user agent as per Wikipedia's guidelines
+ua_client= &quot;Mozilla/5.0&quot;
+ua_contact = &quot;johnsmith@gmail.com&quot;
+ua_library = &quot;wikipedia-api/0.6.0&quot;
+user_agent = f&quot;{ua_client} ({ua_contact}) {ua_library}&quot;
+
+# Define the language and user agent
+lang = wikipediaapi.Wikipedia(language=&quot;en&quot;, user_agent=user_agent)
+
+# Define the title of the Wikipedia article
+article_title = &quot;Data science&quot;
+
+# Get the Wikipedia page for the specified article
+page = lang.page(article_title)
+
+# Get the text content of the article
+article_text = page.text
+
+# Tokenize the article text into words
+nltk.download(&quot;punkt&quot;)  # Download NLTK tokenizer data if not already downloaded
+words = word_tokenize(article_text)
+
+# Create a DataFrame with a single column &quot;Words&quot;
+df = pd.DataFrame({&quot;Words&quot;: words})
+
+# Display the DataFrame
+print(df.head())  # Display the first few rows of the DataFrame
+print(df)
+
+# Filter rows that contain words
+filtered_df = df[df['Words'].str.contains(r'\w', na=False)]
+
+# Save filtered DataFrame as CSV file
+filtered_df.to_csv(&quot;wikipedia_data_science.csv&quot;, index=False)
+</code></pre>
+<h2>Wizualizacja chmury słów</h2>
+<p>Do tworzenia chmur słów wykorzystamy bibliotekę <a href="http://amueller.github.io/word_cloud/">WordCloud</a>. Zanim jednak przejdziemy
+do implementacji i omawiania rozwiązania stanowiącego trzon tej opowieści, to przyjrzyjmy się w jaki sposób, najprostszy sposób,
+możemy wykorzystać wspomniany przed chwilą pakiet WordCloud. Będziemy do tego potrzebowali zarówno tego pakietu,
+jak i pakieto <code>matplotlib</code>.</p>
+<pre><code class="language-python">from wordcloud import WordCloud
+import matplotlib.pyplot as plt
+
+# Sample text data
+text = (&quot;Zanim jednak przejdziemy do implementacji &quot;
+        &quot;i omawiania rozwiązania stanowiącego trzon &quot;
+        &quot;tej opowieści, to przyjrzyjmy się w jaki sposób, &quot;
+        &quot;najprostszy sposób, możemy wykorzystać wspomniany &quot;
+        &quot;przed chwilą pakiet WordCloud.&quot;)
+
+# Generate the word cloud
+wordcloud = WordCloud().generate(text)
+
+# Display the word cloud using Matplotlib
+plt.imshow(wordcloud)
+
+# Show the plot
+plt.show()
+</code></pre>
+<p>I po odpaleniu skryptu dostaniemy w rezultacie coś takiego:</p>
+<p><img width="100%" src="../assets/poradniki/poradnik_1/example_1.png" /></p>
+<p>Jak więc widzimy nawet w tak podstawowej formie chmura słów jest wyjątkowo ciekawym sposobem wizualizacji
+danych tekstowych. Nam zależy jednak na rozwiązaniu o wiele bardziej ciekawym, choć niestety to przełoży się na odrobinę
+dłuższy i bardziej skomplikowany kod. Ale zostańcie ze mną do końca bo warto 😉</p>
+<p>No dobrze. Kod z przykładu podstawowego wykorzystania WordCloud kasujemy i piszemy coś takiego:</p>
+<pre><code class="language-python"># User params
+csv_file = 'wikipedia_data_science.csv'  # Specify the CSV file to read data from
+png_file = 'logo_text_mask.png'  # Specify the PNG file to read mask from.
+</code></pre>
+<p>W pierwszej linii definiuję nazwę pliku CSV, w którym przechowywane są słowa z artykułu pobranego z Wikipedii.
+W drugiej linii natomiast zamieszczam nazwę pliku PNG, który wykorzystamy do utworzenia chmury słów w obrębie liter
+loga <code>danetyk</code>. Plik ten wygląda tak:</p>
+<p><img width="100%" src="../assets/poradniki/poradnik_1/logo_text_mask.png" /></p>
+<p>Pewnie tego nie widać, ale grafika ta posiada białe tło oraz czarne litery. Ważne jest jednak to, aby tło miało wszystkie
+wartości RGB równe 255, natomiast dla liter, aby wartości RGB były równe 0. Jest ważne o tyle, że wykorzystanie tej grafiki
+jako maski spowoduje, że podczas tworzenia chmury słów ta przyjmie rozmiar maski, ale wypełni słowami jedynie miejsca,
+na których maska jest czarna.</p>
+<p>Przejdźmy dalej. Teraz musimy wgrać plik CSV z wykorzystaniem biblioteki <code>pandas</code>, przekształcić kolumnę wyrazów
+do formy listy, po czym zliczyć wystąpienia wszystkich słów z osobna, bo, niespodzianka, skorzystamy z alternatywnego
+sposobu generowania chmurek.</p>
+<pre><code class="language-python">import pandas as pd
+from collections import Counter
+
+# Load a CSV file with single words spread across consecutive rows of a single column
+df = pd.read_csv(csv_file)
+
+# Convert 'Words' column to a list
+words = df['Words'].tolist()
+
+# Convert all words to lowercase and count word frequencies
+words_frequencies = dict(Counter(word.lower() for word in words))
+</code></pre>
+<p>Supcio. Teraz możemy stworzyć maskę na bazie pokazanego wcześniej pliku graficznego:</p>
+<pre><code class="language-python">...
+
+from PIL import Image
+import numpy as np
+
+...
+
+# Load a mask image
+mask = np.array(Image.open(png_file))
+</code></pre>
+<p>No i teraz już tylko wystarczy wygenerować chmurkę:</p>
+<pre><code class="language-python">...
+
+from wordcloud import WordCloud
+import matplotlib.pyplot as plt
+
+...
+
+# Create the WordCloud object with custom parameters
+wordcloud = WordCloud(mask=mask)
+
+# Generate the word cloud using word frequencies or relevance values
+wordcloud.generate_from_frequencies(words_frequencies)
+
+# Show word cloud
+plt.imshow(wordcloud, interpolation=&quot;bilinear&quot;)
+plt.show()
+</code></pre>
+<p>Jednak gdy teraz uruchomimy tak napisany skrypt...</p>
+<p><img width="100%" src="../assets/poradniki/poradnik_1/example_2.png" /></p>
+<p>...to niestety efekt nie należy do tych najwyższych lotów 🙃 W tym celu musimy "trochę" dopieścić ten skrypt, przy czym
+całość wygląda nastepująco:</p>
+<pre><code class="language-python">import pandas as pd
+from PIL import Image
+import numpy as np
+import matplotlib.pyplot as plt
+from wordcloud import WordCloud
+import random
+from collections import Counter
+
+# User params
+csv_file = 'wikipedia_data_science.csv'  # Specify the CSV file to read data from
+png_file = 'logo_text_mask.png'  # Specify the PNG file to read mask from.
+# Mask image should have white background RGB(255,255,255) and black mask region RGB(0,0,0).
+# The DPI of the cloud depends of the PNG file size!
+
+use_desired_color = True  # Set to True if you want to use a specific color for words
+cloud_desired_color = &quot;rgb(0, 0, 0)&quot;  # Define the desired color in RGB format
+
+use_random_color = True  # Set to True if you want to use random colors for words
+
+# Define a dictionary for random RGB color ranges
+crc = {
+    'r': (0, 255),  # Range of red component from 0 to 255
+    'g': (0, 255),  # Range of green component from 0 to 255
+    'b': (0, 255)   # Range of blue component from 0 to 255
+}
+
+cloud_width = 1800  # Width of the WordCloud image
+cloud_height = 500  # Height of the WordCloud image
+
+repeat_words = True  # Set to True to allow word repetitions in the WordCloud
+
+background_color = 'white'  # Set background color for the WordCloud
+
+# Load a CSV file with single words spread across consecutive rows of a single column
+df = pd.read_csv(csv_file)
+
+# Convert 'Words' column to a list
+words = df['Words'].tolist()
+
+# Convert all words to lowercase and count word frequencies
+words_frequencies = dict(Counter(word.lower() for word in words))
+
+# Load a mask image
+mask = np.array(Image.open(png_file))
+
+
+# Define a custom color functions
+def desired_color(word, font_size, position, orientation, font_path, random_state):
+    return cloud_desired_color
+
+
+def random_color(word, font_size, position, orientation, font_path, random_state):
+    # Generate a random RGB color
+    r = random.randint(crc['r'][0], crc['r'][1])
+    g = random.randint(crc['g'][0], crc['g'][1])
+    b = random.randint(crc['b'][0], crc['b'][1])
+    return f&quot;rgb({r}, {g}, {b})&quot;
+
+
+if use_desired_color:
+    color_func = desired_color
+elif use_random_color:
+    color_func = random_color
+else:
+    color_func = None
+
+# Create the WordCloud object with custom parameters
+wordcloud = WordCloud(
+    background_color=background_color,
+    repeat=repeat_words,
+    width=cloud_width,
+    height=cloud_height,
+    mask=mask,
+    color_func=color_func
+)
+
+# Generate the word cloud using word frequencies or relevance values
+wordcloud.generate_from_frequencies(words_frequencies)
+
+plt.figure(figsize=(15, 10))
+plt.imshow(wordcloud, interpolation=&quot;bilinear&quot;)
+plt.axis(&quot;off&quot;)
+plt.tight_layout()
+plt.show()
+</code></pre>
+<p>Efekt wywołania tego skryptu jest następujący:</p>
+<p><img width="100%" src="../assets/poradniki/poradnik_1/example_3.png" /></p>
+<p>Dotychczasowy kod wzbogaciłem o kilka kluczowych elementów. Po pierwsze dodałem kilka dodatkowych parametrów na jego początku,
+które mogą być ustawiane przez użytkownika. Mowa tutaj konkretnie o <code>use_desired_color</code>, <code>cloud_desired_color</code>, <code>use_random_color</code>,
+<code>crc</code>, <code>cloud_width</code>, <code>cloud_height</code>, <code>repeat_words</code> i <code>background_color</code>. Ustawienie <code>use_desired_color</code> na <code>True</code> spowoduje,
+że słowa w chmurze przyjmą kolor zdefiniowany w <code>cloud_desired_color</code>. Z kolei ustawienie <code>use_random_color</code> na <code>True</code> spowoduje,
+że dla każdego słowa zostanie przypisany losowy kolor z zakresu RGB określonego w <code>crc</code>. Ostatecznie, jeżeli ustawimy zmienną
+<code>repeat_words</code> na <code>True</code>, to dopuścimy w ten sposób powtarzanie tych samych słów podczas generowania chmury. Pozostałych zmiennych
+chyba nie muszę już objaśniać 😉</p>
+<h2>Podsumowanie</h2>
+<p>No i cóż, tak oto przedstawia się temat generowania chmur ze słów wyekstrachowanych z pobranych artykułów z Wikipedii.
+Warto w tym miejscu wspomnieć, że konstruktor klasy <code>WordCloud</code> przyjmuje wiele bardzo ciekawych argumentów. Pierwszym
+z brzegu jest <code>colormap</code>, który przyjmuje nazwy skal kolorystycznych zdefiniowanych w pakiecie <code>matplotlib</code>.
+<a href="https://matplotlib.org/stable/tutorials/colors/colormaps.html">Tutaj</a> znajdziecie pełną listę tych skal. Jeżeli jednak
+chcemy z tych skal skorzystać, to musimy pamiętać o rezygnacji z argumentu <code>color_func</code> - albo jedno, albo drugie.
+Ogólnie zachęcam do zapoznania się z pozostałymi parametrami klasy <code>WordCloud</code>. Do następngo! 👋</p>
+<p><img width="100%" src="../assets/poradniki/poradnik_1/example_4.png" /></p>
+
+<h2>Materiały</h2>
+<a href="https://github.com/danetykpl/danetykpl/tree/main/materialy/poradniki/poradnik_1">https://github.com/danetykpl/danetykpl/tree/main/materialy/poradniki/poradnik_1</a>
+
+
+                                </section>
+
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+
+
+        <!-- Footer-->
+        <footer class="bg-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0 text-white">danetyk.pl  &copy; 2023</div></div>
+                    <div class="col-auto">
+                        <div class="small m-0 text-white">kontakt@danetyk.pl</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+    </body>
+</html>
