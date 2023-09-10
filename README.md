@@ -19,6 +19,7 @@ W sprawach wszelakich piszcie na kontakt@danetyk.pl.
 
 Zachęcamy do zainteresowania się naszymi szkoleniami:
 
+ * [Kurs Programowanie w Python dla średniozaawansowanych](https://strefakursow.pl/kursy/programowanie/kurs_programowanie_w_python_dla_sredniozaawansowanych.html?ref=111440)
  * [Fundamenty przetwarzania i analizy danych w SQL](https://strefakursow.pl/kursy/programowanie/fundamenty_przetwarzania_i_analizy_danych_w_sql.html?ref=111440)
  * [Fundamenty programowania w Python](https://strefakursow.pl/kursy/programowanie/fundamenty_programowania_w_python.html?ref=111440)
  * [Fundamenty języka Java](https://strefakursow.pl/kursy/programowanie/fundamenty_jezyka_java.html?ref=111440)
