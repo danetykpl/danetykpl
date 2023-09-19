@@ -1,0 +1,1 @@
+Folder `materialy` zawiera materiały edukacyjne i powiązane z artykułami opublikowanymi na portalu [danetyk.pl](https://www.danetyk.pl/).

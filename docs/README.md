@@ -1,0 +1,1 @@
+Folder `docs` zawiera komponenty portalu danetyk.pl. 
