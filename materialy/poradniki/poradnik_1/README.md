@@ -1,0 +1,1 @@
+Materiały do artykułu [WordCloud w kształcie loga na bazie artykuły z Wikipedii](https://www.danetyk.pl/poradniki/wordcloud-w-ksztalcie-loga-na-bazie-artykulu-z-wikipedii.html).
