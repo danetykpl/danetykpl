@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Zanurz się w świat danych, informacjii sztucznej inteligencji" />
+        <meta name="author" content="danetyk.pl" />
+        <title>danetyk.pl</title>
+
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
+
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="../css/styles.css" rel="stylesheet" />
+
+        <!-- Code Highligh -->
+        <link rel="stylesheet" href="../highlight/styles/ir-black.min.css">
+        <script src="../highlight/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
+
+        <!-- Add Sense -->
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8413519751616760" crossorigin="anonymous"></script>
+    </head>
+
+    <!-- Include the external JavaScript file for Google Analytics -->
+    <script src="../js/google-analytics.js"></script>
+
+    <body class="d-flex flex-column">
+        <main class="flex-shrink-0">
+
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container px-5">
+                    <a class="navbar-brand" href="../index.html"><img src="../assets/on_transparent.png" height="30" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="../index.html">Strona Główna</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../wiadomosci.html">Wiadomości</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../artykuly.html">Artykuły</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../poradniki.html">Poradniki</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../kursy.html">Kursy</a></li>
+                            <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/danetykpl">Facebook</a></li>
+                            <li class="nav-item"><a class="nav-link" href="https://discord.gg/TZYfQGsn">Discord</a></li>
+                            <li class="nav-item"><a class="nav-link" href="https://github.com/danetykpl">GitHub</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <style>
+                /* CSS for the reading progress bar */
+                .progress-container {
+                    position: fixed;
+                    margin-top: 60px;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 4px; /* Adjust the height as needed */
+
+
+                    z-index: 9999; /* Ensure it's above other elements */
+                }
+
+                .reading-progress {
+                    height: 100%;
+                    width: 0;
+                    background-color: #ffc822; /* Color of the progress bar */
+                }
+            </style>
+
+            <script>
+                // JavaScript to update the reading progress bar
+                window.addEventListener('scroll', () => {
+                    const scrollableHeight = document.documentElement.scrollHeight - window.innerHeight;
+                    const scrolled = (window.scrollY / scrollableHeight) * 100;
+                    document.querySelector('.reading-progress').style.width = scrolled + '%';
+                });
+            </script>
+
+            <!-- Reading progress bar container -->
+            <div class="progress-container">
+                <div class="reading-progress"></div>
+            </div>
+
+            <!-- Page Content-->
+            <section class="py-5">
+                <div class="container px-5 my-5">
+                    <div class="row gx-5">
+                        <div class="col-lg-3">
+                            <div class="d-flex align-items-center mt-lg-5 mb-4">
+                                <img class="img-fluid rounded-circle" src="../assets/danetykpl_small.png" alt="..." />
+                                <div class="ms-3">
+                                    <div class="fw-bold">danetyk.pl</div>
+                                    <div class="text-muted">Danetyk na Dorobku</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-9">
+
+                            <!-- Post content-->
+                            <article>
+
+                                <!-- Post header-->
+                                <header class="mb-4">
+
+                                    <!-- Post title-->
+                                    <h1 class="fw-bolder mb-1">Sztuczna inteligencja w obsłudze klienta</h1>
+
+                                    <!-- Post meta content-->
+                                    <br>
+<!--                                    <div class="text-muted fst-italic mb-2">January 1, 2023</div>-->
+
+                                    <!-- Post categories-->
+                                    <div class="badge bg-dark bg-gradient rounded-pill mb-2">AI</div>
+                                </header>
+
+                                <!-- Preview image figure-->
+                                <figure class="mb-4"><img class="img-fluid rounded" src="https://i.insider.com/650838e6f05aa00019be0d77?width=1200&format=jpeg" alt="..." /></figure>
+
+                                <!-- Post content-->
+                                <section class="mb-5">
+
+                                    <p>W ostatnim czasie nastąpiła zauważalna zmiana w sposobie obsługi klienta. Zamiast tradycyjnej obsługi przychodzącej, w której klienci proaktywnie kontaktują się z centrami kontaktowymi, jesteśmy świadkami przejścia na podejście "samoobsługowe". Klienci nawiązują obecnie kontakt z firmami za pośrednictwem różnych kanałów, w tym wyszukiwarek, mediów społecznościowych i aplikacji mobilnych, nawet przed nawiązaniem bezpośredniego kontaktu. Ta ewolucja oznacza, że doświadczenie klienta zaczyna się na wcześniejszym etapie procesu niż kiedykolwiek wcześniej, co sprawia, że początkowy punkt kontaktu ma kluczowe znaczenie.</p>
+
+                                    <p>John Willcutts, wiceprezes i dyrektor generalny Digital Solutions Group w NICE, wiodącym graczu w dziedzinie sztucznej inteligencji i konwersacyjnej sztucznej inteligencji, podkreśla znaczenie tych wczesnych interakcji. Podkreśla, że budowanie i utrzymywanie długoterminowych relacji z klientami zależy od tego, w jaki sposób klienci wchodzą w interakcje z firmami podczas zakupów produktów lub interakcji z usługami i wsparciem. Jakość tych interakcji w dużej mierze decyduje o tym, czy klienci będą kontynuować współpracę z firmą.</p>
+
+                                    <p>W tym miejscu do gry wkraczają specjalnie zaprojektowane rozwiązania AI - systemy sztucznej inteligencji zaprojektowane i opracowane specjalnie dla określonych aplikacji lub zadań.</p>
+
+                                    <p>Dla NICE oznacza to wyposażenie firm w odpowiednie narzędzia AI do wykorzystywania danych i spostrzeżeń, umożliwiając im tworzenie bardziej inteligentnych, głębszych i bardziej znaczących interakcji z klientami, nawet zanim klienci skontaktują się z zespołem obsługi klienta firmy.</p>
+
+                                    <p>Kluczem do wzmocnienia samoobsługi klienta jest skonstruowanie doświadczenia klienta, które minimalizuje tarcia w jego podróży. Niezależnie od tego, jak przyjazny lub przystępny może być agent sprzedaży, jeśli nie może skutecznie odpowiedzieć na zapytania klientów, cierpi na tym doświadczenie klienta. Zapewnienie ciągłości od opcji samoobsługowych do interakcji człowiek-agent ma kluczowe znaczenie dla udanego doświadczenia klienta.</p>
+
+                                    <p>Sztuczna inteligencja odgrywa kluczową rolę w tym procesie, analizując interakcje w czasie rzeczywistym poprzez interaktywne rozpoznawanie głosu (IVR), chatboty i rozmowy z agentami. Takie podejście zapewnia firmom i agentom kompleksowe zrozumienie wzorców zapytań klientów i najskuteczniejszych sposobów ich rozwiązywania.</p>
+
+                                    <p>Willcutts wyjaśnia, że specjalnie zbudowana sztuczna inteligencja zapewnia agentom dostęp do informacji kontekstowych podczas rozmów, umożliwiając im udzielanie dokładnych odpowiedzi. Technologia NICE monitoruje rozmowy z klientami w czasie rzeczywistym, zarówno głosowe, jak i tekstowe, wykorzystując sztuczną inteligencję do dostarczania agentom odpowiednich informacji dokładnie wtedy, gdy ich potrzebują.</p>
+
+                                    <p>NICE Analytics idzie dalej, dostarczając oprogramowanie do konwersacyjnej sztucznej inteligencji i zrobotyzowanej automatyzacji procesów, które opiera się na możliwej do udowodnienia sztucznej inteligencji, eliminując subiektywne uprzedzenia z danych. Jest to pierwsze rozwiązanie na rynku, które jest w stanie udowodnić dokładność swoich wyników.</p>
+
+                                    <hr />
+
+                                    <p><strong>Autopromocja 🌱</strong></p>
+
+                                    <p>Zachęcamy do zainteresowania się naszymi szkoleniami:</p>
+
+                                    <ul>
+                                        <li><a href="https://strefakursow.pl/kursy/programowanie/kurs_programowanie_w_python_dla_sredniozaawansowanych.html?ref=111440">Programowanie w języku Python dla średniozaawansowanych</a></li>
+                                        <li><a href="https://strefakursow.pl/kursy/programowanie/fundamenty_przetwarzania_i_analizy_danych_w_sql.html?ref=111440">Fundamenty przetwarzania i analizy danych w języku SQL</a></li>
+                                        <li><a href="https://strefakursow.pl/kursy/programowanie/fundamenty_programowania_w_python.html?ref=111440">Fundamenty programowania w języku Python</a></li>
+                                        <li><a href="https://strefakursow.pl/kursy/programowanie/fundamenty_jezyka_java.html?ref=111440">Fundamenty języka Java</a></li>
+                                    </ul>
+
+                                    <hr />
+
+                                    <p>Tworzenie wyjątkowego doświadczenia klienta w różnych punktach styku jest najważniejsze. Każda interakcja z klientem ma znaczenie, ponieważ 57% klientów, zgodnie z raportem NICE 2022 Digital-First Customer Experience, prawdopodobnie porzuci markę po zaledwie jednej lub dwóch negatywnych interakcjach. Budowanie wartościowych, opartych na zaufaniu relacji z klientami jest kluczem do długoterminowej lojalności i sukcesu marki, sprzyjając pozytywnym opiniom i rekomendacjom, które są niezbędne dla trwałego wzrostu.</p>
+
+                                    <p>Aby to osiągnąć, organizacje muszą zapewniać doświadczenia, które są godne zaufania, bezpieczne, zwięzłe i dostosowane do wartości, które klienci chcą osiągnąć, jak podkreślił Willcutts.</p>
+
+                                    <p>Rozwiązywanie problemów ma kluczowe znaczenie dla poprawy doświadczeń klientów, a to wymaga wydajności w całym procesie obsługi klienta (CX). Agenci sprzedaży muszą być wzmocnieni, a ich wydajność i satysfakcja z pracy poprawiona.</p>
+
+                                    <p>Wydajne rozmowy są traktowane priorytetowo przez NICE, co prowadzi do bardziej wydajnych rozwiązań dla klientów i większej satysfakcji z pracy agentów. Przedstawiciele handlowi muszą mieć dostęp do kontekstu poprzednich rozmów, dzięki czemu klienci nie będą się powtarzać, a agenci nie będą musieli radzić sobie ze sfrustrowanymi zapytaniami po omacku.</p>
+
+                                    <p>Dzięki swojej najnowszej ewolucji, NICE Enlighten usprawnia całą podróż klienta. Wykorzystując strukturę uczenia maszynowego wyszkoloną na obszernym historycznym zbiorze danych CX, oferuje przydatne rekomendacje oparte na dogłębnej analizie bieżących interakcji z klientami w wielu kanałach.</p>
+
+                                    <p>Te techniki sztucznej inteligencji odpowiadają na wyzwania, przed którymi stoją obecnie centra kontaktowe, wyzwania, których nie można skutecznie rozwiązać za pomocą dużych modeli językowych przeszkolonych w otwartym Internecie, jak wyjaśnił Willcutts. Zamiast tego niezbędne jest specjalnie zaprojektowane rozwiązanie AI, które przechwytuje wiedzę najlepszych agentów sprzedaży w zakresie rozwiązywania problemów i replikuje ją w sztucznej inteligencji. Rozwiązanie NICE opiera się na największym na świecie zbiorze danych dotyczących wcześniejszych interakcji z klientami, opisującym liczne sposoby wyrażania problemów przez konsumentów i sposoby ich rozwiązywania przez agentów.</p>
+
+                                    <p>Wdrożenie tych technik sztucznej inteligencji usuwa bariery, które utrudniają skuteczne rozwiązania dla klientów, poprawia pracę agentów sprzedaży i zmniejsza frustrację podczas podróży klienta od samego początku. Zdolność oprogramowania do porównywania interakcji między sobą pomaga w identyfikacji luk w wiedzy agentów i oferuje proste metody szkoleniowe w celu zwiększenia wiedzy, co dodatkowo poprawia jakość obsługi klienta.</p>
+
+                                    <p>Dzięki Enlighten agenci sprzedaży mają stały dostęp do spersonalizowanych rozwiązań, operacje centrum kontaktowego stają się płynniejsze, zachowania klientów są lepiej rozumiane we wszystkich kanałach, a firmy zapewniają bardziej dopasowane doświadczenia klientów. Rozwiązania NICE oparte na sztucznej inteligencji są w czołówce rozwiązań umożliwiających firmom osiągnięcie doskonałej obsługi klienta i satysfakcji.</p>
+
+                                    <p>Artykuł powstał na bazie: <a href="https://www.businessinsider.com/sc/ai-is-helping-improve-customer-experience-across-multiple-industries?IR=T">https://www.businessinsider.com/sc/ai-is-helping-improve-customer-experience-across-multiple-industries?IR=T</a></p>
+
+                                </section>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+
+
+        <!-- Footer-->
+        <footer class="bg-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0 text-white">danetyk.pl  &copy; 2023</div></div>
+                    <div class="col-auto">
+                        <div class="small m-0 text-white">kontakt@danetyk.pl</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Core theme JS-->
+        <script src="../js/scripts.js"></script>
+    </body>
+</html>
