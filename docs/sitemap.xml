@@ -4,9 +4,27 @@
         <loc>https://www.danetyk.pl/</loc>
     </url>
     <url>
-        <loc>https://www.danetyk.pl/poradniki/wordcloud-w-ksztalcie-loga-na-bazie-artykulu-z-wikipedii.html</loc>
+        <loc>https://www.danetyk.pl/index.html</loc>
+    </url>
+    <url>
+        <loc>https://www.danetyk.pl/wiadomosci.html</loc>
+    </url>
+    <url>
+        <loc>https://www.danetyk.pl/artykuly.html</loc>
+    </url>
+    <url>
+        <loc>https://www.danetyk.pl/poradniki.html</loc>
+    </url>
+    <url>
+        <loc>https://www.danetyk.pl/kursy.html</loc>
     </url>
     <url>
         <loc>https://www.danetyk.pl/artykuly/czym-jest-danetyka.html</loc>
+    </url>
+    <url>
+        <loc>https://www.danetyk.pl/artykuly/sztuczna-inteligencja-w-obs%C5%82udze-klienta.html</loc>
+    </url>
+    <url>
+        <loc>https://www.danetyk.pl/poradniki/wordcloud-w-ksztalcie-loga-na-bazie-artykulu-z-wikipedii.html</loc>
     </url>
 </urlset>
