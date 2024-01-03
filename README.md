@@ -19,6 +19,7 @@ W sprawach wszelakich piszcie na kontakt@danetyk.pl.
 
 Zachęcamy do zainteresowania się naszymi szkoleniami:
 
+ * [Techniki przetwarzania i analizy danych w SQL i wizualizacji danych w Excelu, Pythonie oraz R](https://strefakursow.pl/kursy/programowanie/kurs_sql_python_-_techniki_analizy_i_wizualizacji_danych.html?ref=111440)
  * [Programowanie w języku Python dla średniozaawansowanych](https://strefakursow.pl/kursy/programowanie/kurs_programowanie_w_python_dla_sredniozaawansowanych.html?ref=111440)
  * [Fundamenty przetwarzania i analizy danych w języku SQL](https://strefakursow.pl/kursy/programowanie/fundamenty_przetwarzania_i_analizy_danych_w_sql.html?ref=111440)
  * [Fundamenty programowania w języku Python](https://strefakursow.pl/kursy/programowanie/fundamenty_programowania_w_python.html?ref=111440)
