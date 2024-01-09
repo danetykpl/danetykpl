@@ -6,7 +6,8 @@ Wylądowaliście na GitHubie bezpośrednio powiązanym z portalem [danetyk.pl](h
 
 Zapraszamy do odwiedzania naszych innych mediów:
 
-* [Discord](https://discord.gg/TZYfQGsn) - dedykowany serwer, na którym możecie rozmawiać na temat wszystkiego tego, co teoretyczne i praktyczne w danetyce. 
+* [Discord](https://discord.gg/9USAXmr2) - dedykowany serwer, na którym możecie rozmawiać na temat wszystkiego tego, co teoretyczne i praktyczne w danetyce. 
+* [Instagram](https://www.instagram.com/danetyk.pl/) - gorące posty na wyłącznie gorące tematy związane z gorącym światem danych :P
 * [Facebook](https://www.facebook.com/danetykpl) - znajdziecie tutaj prasówki ze świata danych i materiały pomocne w nauce i w pracy.
 * [Kaggle](https://www.kaggle.com/danetykpl) - znajdziecie tutaj zestawy danych i notebooki.
 
