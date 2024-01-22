@@ -7,7 +7,7 @@ const navItems = [
   { text: "Poradniki", href: "poradniki.html" },
   { text: "Kursy", href: "kursy.html" },
   { text: "Facebook", href: "https://www.facebook.com/danetykpl" },
-  { text: "Discord", href: "https://discord.gg/TZYfQGsn" },
+  { text: "Discord", href: "https://discord.gg/gvXWhek3S4" },
   { text: "GitHub", href: "https://github.com/danetykpl" }
 ];
 
